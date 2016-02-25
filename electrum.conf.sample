@@ -4,20 +4,20 @@ username =
 # hostname. set it to a FQDN in order to be reached from outside
 host = localhost
 # ports
-electrum_rpc_port = 8000
-stratum_tcp_port = 50001
-#stratum_tcp_ssl_port = 50002
+electrum_rpc_port = 8003
+stratum_tcp_port = 50003
+#stratum_tcp_ssl_port = 50004
 #report_host =
-#report_stratum_tcp_port = 50001
-#report_stratum_tcp_ssl_port = 50002
-banner = Welcome to Electrum!
-banner_file = /etc/electrum.banner
+#report_stratum_tcp_port = 50003
+#report_stratum_tcp_ssl_port = 50004
+banner = Welcome to Myriadcoin Electrum!
+banner_file = /etc/electrum_myr.banner
 #irc = no
 #irc_nick = <yournickname>
 #irc_bind_ip = <external ip address>
 #ssl_certfile = /path/to/electrum-server.crt
 #ssl_keyfile = /path/to/electrum-server.key
-logfile = /var/log/electrum.log
+logfile = /var/log/electrum_myr.log
 donation_address =
 
 [leveldb]
@@ -34,7 +34,7 @@ pruning_limit = 100
 
 [bitcoind]
 bitcoind_host = localhost
-bitcoind_port = 8332
-# user and password from bitcoin.conf
+bitcoind_port = 10889
+# user and password from myriadcoin.conf
 bitcoind_user =
 bitcoind_password =

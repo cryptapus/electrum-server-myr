@@ -1,14 +1,16 @@
 # Main network and testnet3 definitions
 
 params = {
+    }
+params = {
     'bitcoin_main': {
-        'pubkey_address': 0,
-        'script_address': 5,
-        'genesis_hash': '000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f'
+        'pubkey_address': 50,
+        'script_address': 9,
+        'genesis_hash': '00000ffde4c020b5938441a0ea3d314bf619eff0b38f32f78f7583cffa1ea485'
     },
     'bitcoin_test': {
-        'pubkey_address': 111,
-        'script_address': 196,
-        'genesis_hash': '000000000933ea01ad0ee984209779baaec3ced90fa3f408719526f8d77f4943'
+        'pubkey_address': 88,
+        'script_address': 188,
+        'genesis_hash': '0000017ce2a79c8bddafbbe47c004aa92b20678c354b34085f62b762084b9788'
     }
 }
